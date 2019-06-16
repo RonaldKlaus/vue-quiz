@@ -1,5 +1,8 @@
 import Vue from 'vue'
 import BootstrapVue from 'bootstrap-vue'
+import VueLodash from 'lodash'
+
+Vue.use(VueLodash) // options is optional
 
 import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
